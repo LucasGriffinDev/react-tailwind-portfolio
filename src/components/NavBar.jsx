@@ -10,33 +10,37 @@ export const NavBar = () => {
     },
     {
       id: 2,
-      link: 'about me',
+      link: 'about',
     },
     {
       id: 3,
-      link: 'projects',
+      link: 'portfolio',
     },
     {
       id: 4,
-      link: 'reviews',
+      link: 'technologies',
     },
     {
       id: 5,
+      link: 'testimonials',
+    },
+    {
+      id: 6,
       link: 'contact',
     },
   ];
   return (
     <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Lucas Griffin Dev</h1>
+        <h1 className="text-4xl font-signature ml-2">Lucas Griffin Dev</h1>
       </div>
       <ul className="md:flex hidden">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500s hover:scale-105 duration-200"
+            className="px-1 cursor-pointer capitalize font-medium text-gray-500s hover:scale-105 duration-200"
           >
-            <a href="#" className="text-gray-500 hover:text-gray-700">
+            <a href={link} className="text-gray-500 hover:text-gray-700">
               {link}
             </a>
           </li>
@@ -55,7 +59,7 @@ export const NavBar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              <a href="#" className="text-gray-500 hover:text-gray-700">
+              <a href="./#" className="text-gray-500 hover:text-gray-700">
                 {link}
               </a>
             </li>
