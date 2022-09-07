@@ -2,10 +2,9 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {
-      fontFamily: {
-        signature: ['Signature', 'sans-serif'],
-      },
+    extend: {},
+    fontFamily: {
+      signature: ['Great Vibes', 'sans-serif'],
     },
   },
   plugins: [],
