@@ -3,6 +3,7 @@ import notesApp from '../assets/portfolio/notesApp.PNG';
 import passwordApp from '../assets/portfolio/passwordApp.PNG';
 import quizApp from '../assets/portfolio/quizApp.PNG';
 import weatherApp from '../assets/portfolio/weatherApp.PNG';
+import grocerybuddy from '../assets/portfolio/grocerybuddy.PNG';
 
 const Portfolio = () => {
   const portfolios = [
@@ -37,6 +38,14 @@ const Portfolio = () => {
       codeLink: 'https://github.com/LucasGriffinDev/weather-app',
       liveLink: 'https://lucasgriffindev.github.io/weather-app/',
       image: weatherApp,
+    },
+    {
+      id: 5,
+      title: 'Grocery App',
+      description: 'A weather app',
+      codeLink: 'https://github.com/LucasGriffinDev/shopping-list',
+      liveLink: 'https://lucasgriffindev.github.io/shopping-list/',
+      image: grocerybuddy,
     },
   ];
   return (
