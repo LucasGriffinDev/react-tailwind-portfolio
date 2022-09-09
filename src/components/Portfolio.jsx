@@ -18,7 +18,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: 'Password Generator',
-      description: 'A password generator',
+      description: 'hunter7',
       codeLink: 'https://github.com/LucasGriffinDev/random-password-generator',
       liveLink: 'https://lucasgriffindev.github.io/random-password-generator/',
       image: passwordApp,
@@ -26,7 +26,7 @@ const Portfolio = () => {
     {
       id: 3,
       title: 'Quiz App',
-      description: 'A quiz app',
+      description: '10 random questions',
       codeLink: 'https://github.com/LucasGriffinDev/react-quiz-app-ts',
       liveLink: 'https://lucasgriffindev.github.io/react-quiz-app-ts/',
       image: quizApp,
@@ -34,7 +34,7 @@ const Portfolio = () => {
     {
       id: 4,
       title: 'Weather App',
-      description: 'A weather app',
+      description: 'current weather, anywhere',
       codeLink: 'https://github.com/LucasGriffinDev/weather-app',
       liveLink: 'https://lucasgriffindev.github.io/weather-app/',
       image: weatherApp,
@@ -42,7 +42,7 @@ const Portfolio = () => {
     {
       id: 5,
       title: 'Grocery App',
-      description: 'A weather app',
+      description: 'grocery notes on the go!',
       codeLink: 'https://github.com/LucasGriffinDev/shopping-list',
       liveLink: 'https://lucasgriffindev.github.io/shopping-list/',
       image: grocerybuddy,
