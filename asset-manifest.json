@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-tailwind-portfolio/static/css/main.27e7936c.css",
-    "main.js": "/react-tailwind-portfolio/static/js/main.af54d896.js",
+    "main.js": "/react-tailwind-portfolio/static/js/main.556b5d9f.js",
     "static/media/weatherApp.PNG": "/react-tailwind-portfolio/static/media/weatherApp.71cb7e8c8c5f4169f312.PNG",
     "static/media/quizApp.PNG": "/react-tailwind-portfolio/static/media/quizApp.e898956e1382c730db38.PNG",
     "static/media/headshot.jpg": "/react-tailwind-portfolio/static/media/headshot.ca26b287e767cd600e11.jpg",
@@ -10,10 +10,10 @@
     "static/media/grocerybuddy.PNG": "/react-tailwind-portfolio/static/media/grocerybuddy.32cf86febc85f64f7768.PNG",
     "index.html": "/react-tailwind-portfolio/index.html",
     "main.27e7936c.css.map": "/react-tailwind-portfolio/static/css/main.27e7936c.css.map",
-    "main.af54d896.js.map": "/react-tailwind-portfolio/static/js/main.af54d896.js.map"
+    "main.556b5d9f.js.map": "/react-tailwind-portfolio/static/js/main.556b5d9f.js.map"
   },
   "entrypoints": [
     "static/css/main.27e7936c.css",
-    "static/js/main.af54d896.js"
+    "static/js/main.556b5d9f.js"
   ]
 }
