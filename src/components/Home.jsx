@@ -15,11 +15,12 @@ export const Home = () => {
             I am a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a Frontend Developer with a passion for creating beautiful,
-            responsive, and intuitive user experiences. I have a background in
-            both frontend and backend development, and I am currently working on
-            my portfolio. Currently I like to code in JavaScript, React, and,
-            tailwind, Next Js and GraphQL.
+            Javascript developer with development experience in React,
+            javascript, typescript, Node.js, mongodb and GraphQL. Technical
+            skills augmented with a polyglot hotel management background,
+            providing strong collaboration and independent problem solving skill
+            sets. I am an asset to any customer solutions focused development
+            team.
           </p>
           <div>
             <Link to={'portfolio'} smooth={true} duration={500}>
