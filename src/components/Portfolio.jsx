@@ -4,6 +4,7 @@ import passwordApp from '../assets/portfolio/passwordApp.PNG';
 import quizApp from '../assets/portfolio/quizApp.PNG';
 import weatherApp from '../assets/portfolio/weatherApp.PNG';
 import grocerybuddy from '../assets/portfolio/grocerybuddy.PNG';
+import hotelApp from '../assets/portfolio/hotelApp.PNG';
 
 const Portfolio = () => {
   const portfolios = [
@@ -46,6 +47,14 @@ const Portfolio = () => {
       codeLink: 'https://github.com/LucasGriffinDev/shopping-list',
       liveLink: 'https://lucasgriffindev.github.io/shopping-list/',
       image: grocerybuddy,
+    },
+    {
+      id: 6,
+      title: 'Hotel Resort App',
+      description: 'Hotel Resort App',
+      codeLink: 'https://github.com/LucasGriffinDev/beach-resort',
+      liveLink: 'https://lucasgriffindev.github.io/beach-resort/',
+      image: hotelApp,
     },
   ];
   return (
